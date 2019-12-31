@@ -4,52 +4,116 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact | Ryan Kaplan</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <header id="masthead">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a href="index.html" id="logo">Ryan Kaplan</a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+            <div class="row">
+                <div class="col-md-5">
+                    <a class="navbar-brand" href="index.html" id="logo">Ryan Kaplan</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-3">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="nav navbar-nav ml-auto flex-nowrap">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-    </header>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="main-container" class="container">
+                    <section class="main-section">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>Contact</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <form id="contact-form">
+                            <ul>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <li>
+                                                <label for="name">Name</label>
+                                                <input type="text" id="name" name="name" placeholder="John Smith"
+                                                    required="required">
 
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>Contact</h1>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <li>
+                                                <label for="email">Email</label>
+                                                <input type="email" id="email" name="email"
+                                                    placeholder="example@gmail.com" required="required">
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <li>
+                                                <label for="message">Message</label>
+                                                <textarea id="message" name="message" required="required"></textarea>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="submit">
 
-            <form id="contact-form">
-                <ul>
-                    <li>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-                    </li>
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-                    </li>
-                    <li>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required="required"></textarea>
-                    </li>
-                </ul>
-                <input type="submit">
-            </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
 
-        </section>
 
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        Copyright &copy;
+                    </div>
+                </div>
+            </div>
     </div>
-
-    <footer>
-        <div class="container">
-            Copyright &copy;
-        </div>
     </footer>
 </body>
 
