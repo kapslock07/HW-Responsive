@@ -17,6 +17,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+  padding: 0;
 }
 
 h1,
@@ -214,4 +215,8 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+.col-md-12 {
+  padding: 0
 }
