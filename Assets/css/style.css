@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/wood_bg.jpg");
 }
 
 * {
@@ -27,6 +27,13 @@ p {
   margin-bottom: 20px;
 }
 
+#lastP {
+  padding-bottom: 20px;
+}
+.pageTitle {
+margin-top: 20px;
+}
+
 p:last-child {
   margin-bottom: 0;
 }
@@ -34,9 +41,9 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Carme', sans-serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #e47932;
 }
 
 h1 {
@@ -67,15 +74,14 @@ h3 {
 #logo {
   float: left;
   width: 250px;
-  height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
+  height: 80px;
+  font-family: 'Carme', sans-serif;
+  font-size: 40px;
   font-weight: 700;
   line-height: 90px;
   color: #ffffff;
-  text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #e47932;
 }
 
 nav {
@@ -107,7 +113,7 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #e47932;
   height: 50px;
 }
 
@@ -129,8 +135,8 @@ h3, h2 {
   float: left;
   width: 100%;
   max-width: 960px;
-  padding: 30px;
-  margin: 0 0 40px;
+  padding-left: 30px;
+  margin-bottom: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
 }
@@ -165,7 +171,7 @@ h3, h2 {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
+  background: #e47932;
   border-bottom: 0;
 }
 
@@ -213,7 +219,7 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #e47932;
   border: 0 none;
 }
 
